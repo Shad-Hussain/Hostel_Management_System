@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+a,
+li {
+  text-decoration: none !important;
+  color: none !important;
+}
+
+/*<><><><><><><><><><><><><><><><><><><><><><><>><><><><<><><><><><><><><><><><><><*/
+
+/* CHAT BOT START*/
+/*ChatBot*/
+.chat_icon {
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+  z-index: 1000;
+  padding: 0;
+  font-size: 80px;
+  color: #fff;
+  cursor: pointer;
+}
+.chat_box {
+  width: 400px;
+  height: 80vh;
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  background: #dedede;
+  z-index: 1000;
+  transition: all 0.3s ease-out;
+  transform: scaleY(0);
+}
+.chat_box.active {
+  transform: scaleY(1);
+}
+#messages {
+  padding: 20px;
+}
+.my-conv-form-wrapper textarea {
+  height: 30px;
+  overflow: hidden;
+  resize: none;
+}
+.hidden {
+  display: none !important;
+}
+/* CHAT BOT END*/
+
+/* chat bot resp */
+
+/*This Media Query use for Mobile View*/
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 20px 0;
+  }
+  .logo {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+  }
+  .main_nav {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .main_nav ul li {
+    margin: 0 3px;
+  }
+
+  .banner {
+    background-size: 200%;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+  .banner h1 {
+    font-size: 40px;
+  }
+  .about-section h2 {
+    font-size: 30px;
+  }
+  .about-box {
+    margin: 15px 0;
+  }
+  #port_pop_pic {
+    left: 30px;
+    top: 30px;
+    width: calc(100% - 60px);
+    height: calc(100% - 60px);
+  }
+}
+/* chat bot resp */
+/*<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><*/
+
+/* Notice and Notif */
+
+.container-1 {
+  display: grid;
+  height: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 3rem;
+  margin: 20px;
+  padding: 5rem;
+}
+.notification-notice-h1 {
+  background-color: #091f36;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+.notice {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.notice ul li {
+  padding: 1rem;
+}
+.notice:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+.notice a {
+  text-decoration: none;
+  line-height: 1.4em;
+}
+.notice ul li a {
+  color: rgb(37, 36, 36);
+}
+.notice ul li a:hover {
+  color: #00608d;
+}
+.notification a {
+  text-decoration: none;
+  line-height: 1.6em;
+  font-size: large;
+}
+.notification {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.notification ul li {
+  padding: 1rem;
+  position: relative;
+}
+.notification:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+.notice-button {
+  background-color: #091f36;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px !important;
+  padding: 2px;
+  margin-left: 205px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 20%;
+}
+
+@media only screen and (max-width: 500px) {
+  .container-1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "notice"
+      "notification";
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .notice-button {
+    width: 20%;
+    margin-left: 130px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+}
+
+/* Notice and Notif ENDs */

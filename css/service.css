@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Ubuntu');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+ body{
+	background:#84CEEB;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+   
+
+/* Form starts */
+.help-section{
+	padding: 40px 0;
+	
+  }
+  .help-section h1{
+	text-align: center;
+	color: white;
+	z-index: 5;
+  }
+  .help-section p{
+	text-align: center;
+	color: rgb(14, 1, 1);
+	margin: 1rem;
+	font-weight:800;
+  }
+ .help-section .border{
+	width: 100px;
+	height: 10px;
+	background: #FFD900;
+	margin: 40px auto;
+  }
+  .help-section form label{
+	  font-weight: bold;
+  }
+  .help-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+  }
+  .help-form .rate{
+	text-align: left;
+	color:black;
+	padding-left: 0;
+	padding-bottom: 1rem;
+	font-weight: lighter;
+  }
+  .help-form .radio-inline{
+	padding:1rem;
+	margin-bottom: 1rem;
+  }
+  
+  .help-form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: rgb(255, 255, 255);
+	padding: 20px 40px;
+	outline: none;
+	color:  #091f36;
+	transition: 0.5s;
+  }
+  .help-form-text:focus{
+	box-shadow: 0 0 10px 4px #FFD900;
+  }
+  
+  textarea.help-form-text{
+  
+	resize: none;
+	height: 120px;
+  }
+  .help-form-btn{
+	float: left;
+	border: 0;
+	background:#091f36;
+	color: #fff;
+	padding: 12px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+  }
+  .help-form-btn:hover{
+	background: #FFD900;
+  }
+.form{
+	width: 60%;
+	height: 70vh;
+	 margin-left: 15%;
+	 position: absolute;
+	 margin-top: 5%;
+	 
+	 }
+   .form-input{
+	 width:85%;
+	 padding: 5px  2px; 
+	   font-size: 17px;
+	   border:2px solid grey;
+	   border-radius: 6px;
+	   margin-left: 50px; 
+	   margin-bottom: 20px;
+	   margin-top: 15px;
+	   text-align: center;
+   }
+   .btn-dark{
+	 background-color:#FFD900;
+	 color: white;
+	 padding: 5px;
+	 font-size: 17px;
+	 border:1px solid grey;
+	 text-align: center;
+	 margin-left: 45%;
+	 border-radius: 6px;
+	 width: 90px;
+	 cursor: pointer;
+   
+   
+	 }
+	 .btn-dark:hover{
+	 background-color: black;
+	 transition-duration: 1s;
+   
+   }
+   .btn-right:hover{
+	 background-color: black;
+	 transition-duration: 1s;
+   
+   }
+   
+   
+   /* animation-name:animate ;
+   animation-direction: alternate-reverse; 
+   animation-duration: 30s;
+   animation-fill-mode: forwards;
+   animation-iteration-count:  infinite;
+   animation-play-state: running;
+   animation-timing-function: ease-in-out;
+    */
+   
+   /* @keyframes animate{
+	 0%{background-image: url(../images/rm.jpg);}
+   
+	 20%{background-image: url(../images/rm2.jpg);}
+   
+	 
+	 40%{background-image: url(../images/rm3.jpg);}
+   
+	 60%{background-image: url(../images/rm4.jpg);}
+    
+	 80%{background-image: url(../images/rm5.jpg);}
+   
+	 100%{background-image: url(../images/rm.jpg);}
+   
+   }
+   datalist{
+	 display: none;
+   } */
+
+/* Form ends */

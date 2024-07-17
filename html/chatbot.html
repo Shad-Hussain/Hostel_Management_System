@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SAFY-R.M. HALL</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">   
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  
+  
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="../js/script.js"></script>
+<!-- chat bot starts -->
+     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+     <link rel="stylesheet" type="text/css" href="../css/style.css">
+     <!-- <link rel="stylesheet" type="text/css" href="../css/responsive.css"> -->
+     <link rel="stylesheet" type="text/css" href="../css/chatbot.css">
+     
+     <!-- ChatBot -->
+     <link rel="stylesheet" type="text/css" href="../css/jquery.convform.css">
+     <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+     <script type="text/javascript" src="../js/jquery.convform.js"></script>
+     <script type="text/javascript" src="../js/custom.js"></script>
+     
+     </head>
+     <body>
+     <!-- ChatBot -->
+     <div class="chat_icon">
+         <i class="fas fa-robot" aria-hidden="true"></i>
+     </div>
+     
+     <div class="chat_box">
+         <div class="my-conv-form-wrapper">
+             <form action="" method="GET" class="hidden">
+          
+           
+           <select data-conv-question="Hey there! These are most common issues. For more help go to help section and write us your query."data-no-answer="true"></select>
+           <select data-conv-question="Choose one of following"  name="category"> 
+             <option value="WebDevelopment">Room Allotment</option>
+             <option value="DigitalMarketing">Room Maintenance</option>
+             
+           </select>
+     
+           <div data-conv-fork="category">
+             <div data-conv-case="WebDevelopment">
+               <input type="text" name="domainName" data-conv-question="Please, tell me your Hall name">    
+             </div>
+             <div data-conv-case="DigitalMarketing" data-conv-fork="first-question2">
+               <input type="text" name="domainName" data-conv-question="Please, enter your Hall name"> 
+             </div>
+           </div>
+     
+           <input type="text" name="name" data-conv-question="Please, Enter your name">
+     
+           <input type="text" data-conv-question="Hi {name}, <br> It's a pleasure to meet you.Go to {domainName} page from the home page and in the bottom you will find a link, open it and fill the form." data-no-answer="true">
+     
+           <!-- Please go to your respective hall page, at the bottom you will see the link, open and fill the form<input data-conv-question="Enter your e-mail" data-pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" type="email" name="email" required placeholder="What's your e-mail?"> -->
+     
+           <select data-conv-question="Refresh page to use me again">
+             <option value="Yes">Ok Pal</option>
+           </select>
+     
+           </form>
+         </div>
+     </div>
+     <!-- chat bot end -->

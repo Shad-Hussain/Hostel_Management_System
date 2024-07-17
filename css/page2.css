@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+
+
+ /* Notice and Notif *
+
+ .container-1{
+  display:grid;
+  height:auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap:3rem;
+  margin: 20px;
+  padding:5rem ;
+}
+.notification-notice-h1{
+  background-color:#091f36;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color:white;
+  margin:0; 
+  text-align: center;
+
+}
+.notice{
+  background-color:white;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.notice ul li{
+  padding: 1rem;
+}
+.notice:hover{
+  transform: translateY(-10px);
+  box-shadow: 5px 10px 8px 10px #888888;
+ 
+}
+.notice a{
+  text-decoration:none;
+  line-height:1.4em;
+}
+.notice ul li a{
+  color: rgb(37, 36, 36);
+}
+.notice ul li a:hover{
+  color: #00608d;
+}
+.notification a{
+  text-decoration:none;
+  line-height:1.6em;
+  font-size: large;
+}
+.notification{
+  background-color:white;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.notification ul li{
+  padding: 1rem;
+  position: relative;
+}
+.notification:hover{
+  transform: translateY(-10px);
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+.notice-button{
+  background-color:#091f36;
+  border:none;
+  outline:none;
+  color:white;
+  font-size:18px !important;
+  padding:2px;
+  margin-left: 205px;
+  margin-bottom:10px;
+  border-radius: 10px;
+  width:20%;
+}
+
+
+@media only screen and (max-width:500px){
+  .container-1{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas:
+      "notice"
+      "notification";
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .notice-button{
+    width:20%;  
+    margin-left: 130px;
+    margin-bottom:15px;
+    border-radius: 10px;
+}
+}
+  /* Notice and Notif ENDs */
+
+
+
+/* table */
+.hall-info h2{
+  text-align: center;
+  font-family: cursive;
+  padding-bottom: 1.5rem;
+}
+.hall-info table{
+  border: 1px solid black; 
+  margin-left: auto; 
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+.hall-info table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+}
+.hall-info td::selection{
+  color: white;
+  background-color: #008d00;
+}
+.hall-info th::selection{
+  color: white;
+  background-color: #b10b0b;
+}
+.hall-info h2::selection{
+  color: white;
+  background-color: #b10b0b;
+}
+
+
+/* Table Ends */
+
+
+
+.rmpic{
+  height: 335px;
+  width: 320px;
+  display: block;
+  border-radius: 40px;
+  box-shadow: 0 0 30px #033f5f;
+  
+  
+}
+
